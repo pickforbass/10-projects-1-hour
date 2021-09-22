@@ -11,7 +11,7 @@ setInterval(() => {
             i=0;
             document.body.innerHTML = "";
         
-        }, 700);
+        }, 666);
         
     }
     
