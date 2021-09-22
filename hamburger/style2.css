@@ -8,6 +8,7 @@ h1 {
     text-align: center;
 }
 
+
 .hamburger-button {
     position: absolute;
     top: 5px;
@@ -19,34 +20,34 @@ h1 {
     padding: 3px;
 }
 
+
 #hamburger-menu {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 3em;
     bottom: 0;
-    left: 0;
-    right:0;
+    width: 12em;
     z-index: 2;
-    
+    transform: translateX(-100%);
+    transition: transform 0.70s ease-in-out;
 }
 
 
 #menu-list {
-    width: 15%;
     margin-top: 4%;
     margin-left: 5px;
     padding: 1rem 0 0 1rem;
-    background-color: white;
     min-height: 32em;
 
 }
+
+
+#hamburger-menu.slide-right {
+	transform: translateX(0);
+}
+
 
 .center-content {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-.hidden {
-    display: none;
 }
