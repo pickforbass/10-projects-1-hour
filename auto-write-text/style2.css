@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5428cc+0,276ce5+50,91cad6+100 */
+background: rgb(84,40,204); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(84,40,204,1) 0%, rgba(39,108,229,1) 50%, rgba(145,202,214,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(84,40,204,1) 0%,rgba(39,108,229,1) 50%,rgba(145,202,214,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(84,40,204,1) 0%,rgba(39,108,229,1) 50%,rgba(145,202,214,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5428cc', endColorstr='#91cad6',GradientType=1 ); /* IE6-9 */
+
+font-family: 'Be Vietnam Pro', sans-serif;
+font-size: 125%;
+font-weight: bolder;
+color: white;
+text-align: center;
+margin-top: 20vh;
+}
