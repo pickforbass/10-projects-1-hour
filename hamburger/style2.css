@@ -1,0 +1,52 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.hamburger-button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 3;
+    background-color: transparent;
+    border: 2px solid black; 
+    border-radius: 18px;
+    padding: 3px;
+}
+
+#hamburger-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    z-index: 2;
+    
+}
+
+
+#menu-list {
+    width: 15%;
+    margin-top: 4%;
+    margin-left: 5px;
+    padding: 1rem 0 0 1rem;
+    background-color: white;
+    min-height: 32em;
+
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hidden {
+    display: none;
+}
