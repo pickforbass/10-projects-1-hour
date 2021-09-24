@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: blanchedalmond;
+}
+
+#launcher {
+    margin: 5px;
+    padding: 2em;
+}
+
+.rain {
+    font-size: 120%;
+    position: absolute;
+    animation: rain 12s ease-out;
+}
+
+
+@keyframes rain {
+    from {top : -0.1vh }
+    to { top: 100vh }
+    
+}
