@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #112123;
+}
+
+img {
+    border : 7px white solid;
+    display: none;
+    width: 40%;
+    margin: auto;
+}
+
+#caroussel-container {
+    width: 75%;
+    margin: 3em auto;
+}
+
+img.active {
+    display: block;
+}
